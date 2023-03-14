@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<types>
+   <type id="edgetype1" priority="2" numLanes="4" speed="16.6667" disallow="pedestrian"  sidewalkWidth="2" />
+   <!--16.6667 m/s = 60 km/h-->
+  
+</types>

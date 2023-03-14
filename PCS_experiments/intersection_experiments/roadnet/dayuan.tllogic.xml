@@ -1,0 +1,9 @@
+<tlLogics version="0.13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tllogic_file.xsd">
+     
+    <tlLogic id="centernode" type="static" programID="mytllogicprogramid" offset="0">
+        <phase duration="84" state="GGGGGGggrrrrrrrrGGGGGGggrrrrrrrrrGrG"/>
+        <phase duration="3"  state="yyyyyyyyrrrrrrrryyyyyyyyrrrrrrrrrGrG"/>
+        <phase duration="50" state="rrrrrrrrGGGGGGggrrrrrrrrGGGGGGggGrGr"/>
+        <phase duration="3"  state="rrrrrrrryyyyyyyyrrrrrrrryyyyyyyyGrGr"/>
+    </tlLogic>
+</tlLogics>

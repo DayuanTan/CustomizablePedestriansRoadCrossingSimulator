@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<connections xmlns:xsi="http://www.w4.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/connections_file.xsd">
+    <!--turn  left-->
+    <connection from="N1" to="E2" fromLane="4" toLane="4"/>
+    <connection from="N1" to="E2" fromLane="4" toLane="3"/>
+    <!--go straight-->
+    <connection from="N1" to="S2" fromLane="3" toLane="4"/>
+    <connection from="N1" to="S2" fromLane="3" toLane="3"/>
+    <connection from="N1" to="S2" fromLane="2" toLane="2"/>
+    <connection from="N1" to="S2" fromLane="1" toLane="1"/>
+    <!--turn  right-->
+    <connection from="N1" to="W2" fromLane="1" toLane="1"/>
+    <connection from="N1" to="W2" fromLane="1" toLane="2"/>
+
+
+    <!--turn  left-->
+    <connection from="E1" to="S2" fromLane="4" toLane="4"/>
+    <connection from="E1" to="S2" fromLane="4" toLane="3"/>
+    <!--go straight-->
+    <connection from="E1" to="W2" fromLane="3" toLane="4"/>
+    <connection from="E1" to="W2" fromLane="3" toLane="3"/>
+    <connection from="E1" to="W2" fromLane="2" toLane="2"/>
+    <connection from="E1" to="W2" fromLane="1" toLane="1"/>
+    <!--turn  right-->
+    <connection from="E1" to="N2" fromLane="1" toLane="1"/>
+    <connection from="E1" to="N2" fromLane="1" toLane="2"/>
+
+
+    <!--turn  left-->
+    <connection from="S1" to="W2" fromLane="4" toLane="4"/>
+    <connection from="S1" to="W2" fromLane="4" toLane="3"/>
+    <!--go straight-->
+    <connection from="S1" to="N2" fromLane="3" toLane="4"/>
+    <connection from="S1" to="N2" fromLane="3" toLane="3"/>
+    <connection from="S1" to="N2" fromLane="2" toLane="2"/>
+    <connection from="S1" to="N2" fromLane="1" toLane="1"/>
+    <!--turn  right-->
+    <connection from="S1" to="E2" fromLane="1" toLane="1"/>
+    <connection from="S1" to="E2" fromLane="1" toLane="2"/>
+
+
+    <!--turn  left-->
+    <connection from="W1" to="N2" fromLane="4" toLane="4"/>
+    <connection from="W1" to="N2" fromLane="4" toLane="3"/>
+    <!--go straight-->
+    <connection from="W1" to="E2" fromLane="3" toLane="4"/>
+    <connection from="W1" to="E2" fromLane="3" toLane="3"/>
+    <connection from="W1" to="E2" fromLane="2" toLane="2"/>
+    <connection from="W1" to="E2" fromLane="1" toLane="1"/>
+    <!--turn  right-->
+    <connection from="W1" to="S2" fromLane="1" toLane="1"/>
+    <connection from="W1" to="S2" fromLane="1" toLane="2"/>
+    
+    <!--crosswalk / zebra area-->
+    <crossing node="centernode" edges="N1 N2" width="6.4"/>
+    <crossing node="centernode" edges="E1 E2" width="3.6"/>
+    <crossing node="centernode" edges="S1 S2" width="6.4"/>
+    <crossing node="centernode" edges="W1 W2" width="3.6"/>
+</connections>

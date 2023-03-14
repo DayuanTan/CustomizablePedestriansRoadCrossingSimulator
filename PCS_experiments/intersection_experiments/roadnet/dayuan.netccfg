@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+    <input>
+        <node-files value="dayuan.nod.xml"/>
+        <edge-files value="dayuan.edg.xml"/>
+        <connection-files value="dayuan.con.xml"/>
+        <type-files value="dayuan.typ.xml"/>
+        <tllogic-files value="dayuan.tllogic.xml"/>
+    </input>
+    <!-- no need guess anymore because I specify it in edge type file.
+    <pedestrian>
+        <sidewalks.guess value="true" />
+    </pedestrian> -->
+    
+    <output>
+        <output-file value="dayuan.net.xml"/>
+    </output>
+    <junctions>
+        <no-turnarounds value="true"/>
+    </junctions>
+    <report>
+        <verbose value="true"/>
+    </report>
+</configuration>
