@@ -10,7 +10,7 @@ If you find any part of this repo helps your work, or your use any part of this 
 Please note this open-source repo uses GNU General Public License v3.0. 
 
 # The PCS 
-Please check this folder for all source code and documents about all simulator.
+Please check this folder for all source code and documents about all simulator:
 [DayuanTanPCS](./DayuanTanPCS/)
 
 It includes:
@@ -20,7 +20,7 @@ It includes:
 
 # Experiments
  
-Please check this folder for all source code and documents about our experiments introduced in our paper.
+Please check this folder for all source code and documents about our experiments introduced in our paper:
 [PCS_experiments](./PCS_experiments/) 
 
 It includes:
